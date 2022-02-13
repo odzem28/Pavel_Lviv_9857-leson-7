@@ -1,0 +1,188 @@
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Rowdies:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
+
+header {
+	font-family: roboto;
+	font-size: 30px;
+	font-weight: bold;
+	border-bottom: 3px dashed black;
+}
+
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+.content {
+	font-family: Roboto;
+	font-weight: bold;
+	font-style: normal;
+	text-align: justify;
+	margin: 0 auto;
+	background-image: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%), url("../img/15.jpg");
+}
+.title-boba {
+	font-size: 60px;
+	text-align: center;
+	color: rgba(255, 205, 112, 0.897);
+	text-shadow: 10px 15px 4px rgb(80, 65, 32);
+	margin: 20px 0;
+	background: url("../img/24.jpg");
+	padding: 40px 0;
+}
+.imeg1 {
+	width: 500px;
+	margin: 0 0 10px 400px;
+	outline: 2px solid rgb(54, 105, 20, 0.5);
+	box-shadow: 10px 10px 25px 1px green;
+}
+.list {
+	background: url("../img/par1.jpg") 23px 332px / 80px repeat-x;
+}
+.list-boba {
+	margin: 70px 20px 10px 20px;
+	background: url("../img/par1.jpg") 22.5px 80px / 80px no-repeat fixed;
+}
+.list-boba li {
+	margin: 0 15px 0 100px;
+	font-size: 20px;
+}
+.list-boba li a {
+	color: rgb(47, 4, 88);
+}
+
+.imeg-boba {
+	font-size: 50px;
+	padding: 0 20px 0 120px;
+	background: url("../img/par1.jpg") 22.5px 0 / 80px repeat-y;
+}
+.parahraf-imeg-boba {
+	background: url("../img/i1.jpg") right bottom / 500px no-repeat, url("../img/2н.jpg") 0 0 / cover no-repeat;
+	color: #6175cc7a;
+}
+
+.project {
+	text-align: justify;
+	width: 800px;
+	margin: 80px auto;
+	font-style: normal;
+	color: #313131;
+}
+
+.super-project {
+	text-align: center;
+	font-family: lobster;
+	font-size: 80px;
+	color: rgba(48, 7, 7, 0.753);
+	margin-bottom: 40px;
+	border: 10px double rgb(102, 52, 52);
+	padding: 10px;
+}
+
+.project-block {
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: bold;
+	color: #1e212c;
+	margin-top: 30px;
+	width: 810px;
+}
+
+.content-title {
+}
+.title1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+}
+.meta {
+	margin: 25px 0;
+}
+.imeg-title {
+	margin-bottom: 60px;
+}
+.paragraf-title {
+	margin-bottom: 25px;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+.content-text {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 50px;
+}
+.paragraf1-text {
+	padding-bottom: 25px;
+}
+
+.content-parahraf {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+	margin-bottom: 50px;
+	background: url("../img/braces.svg") 0 1px / 28px no-repeat;
+}
+.parahraf-content {
+	padding-left: 50px;
+}
+
+.content-list {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+.parahraf1-list {
+	padding-bottom: 25px;
+}
+.item-list {
+	background: url("../img/check.svg") 0 5px no-repeat;
+	padding: 0 0 0 25px;
+}
+
+.parahraf2-list {
+	margin: 30px 0;
+}
+
+footer {
+	font-family: Lobster;
+	font-size: 30px;
+	font-weight: bold;
+	border-top: 3px dotted #000;
+}
